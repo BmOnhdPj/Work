@@ -2,7 +2,7 @@ import paramiko
 import config
 
 host = config.connect()
-user = 'BmOnhdPj'
+user = 'noname13'
 secret = 'q1w2e3r4t5y6'
 port = 22
 
